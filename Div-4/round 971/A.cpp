@@ -1,4 +1,4 @@
-// ques 3 A 
+// round 971
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -7,11 +7,12 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        int n,dig;
-        cin>>n;
-        dig=n%10;
-        n/=10;
-        int sum=n+dig;
-        cout<<sum<<"\n";
+        int a,b;
+        cin>>a>>b;
+        int ans=b-a;
+        cout<<ans<<"\n";
     }
 }
+
+
+

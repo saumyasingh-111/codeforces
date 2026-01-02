@@ -1,4 +1,4 @@
-//  ques 2 B
+// round 971
 
 #include <iostream>
 #include <vector>
